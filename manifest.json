@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "test",
+  "version": "1.0",
+
+  "description": "test wether the translator works",
+
+  "icons": {
+    "48": "icons/translate.svg",
+    "96": "icons/translate.svg"
+  },
+
+
+  "browser_action": {
+    
+    "default_icon": "icons/translate.svg",
+    "default_title": "test",
+    "default_popup": "popup/translator.html"
+  }
+
+
+}
