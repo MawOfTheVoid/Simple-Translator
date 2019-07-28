@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <meta charset="utf-8"/>
     </head>
   <body>
     <form>
       <label>
-        <input type="radio" name="language" checked>Deutsch</input>
+        <input type="radio" id="de" name="language" checked>Deutsch</input>
       </label>
       <label>
-        <input type="radio" name="language">English</input>
+        <input type="radio" id="en" name="language">English</input>
       </label>
       <label>
-        <input type="radio" name="language">Español</input>
+        <input type="radio" id="es" name="language">Español</input>
       </label><br>
       <script type="text/javascript" src="translate.js"></script>
       <input id="textinput" type="text" placeholer="Your word here" required>
-      <button type="button" onclick="translate_click()">Translate</button>
+      <button type="button" onclick="translate_click()">Translate</button><br>
     </form>
-    <p></p>
+    <p id="answer"></p>
   </body>
 </html>
