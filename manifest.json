@@ -11,14 +11,6 @@
     "96": "icons/translate.svg"
   },
 
-  "content_scripts": [
-  {
-    "js": ["popup/translate.js"],
-    "html": ["popup/translator.html"]
-  }
-],
-
-
 
   "browser_action": {
 
@@ -26,6 +18,4 @@
     "default_title": "test",
     "default_popup": "popup/translator.html"
   }
-
-
 }
