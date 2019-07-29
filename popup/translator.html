@@ -2,17 +2,21 @@
 <html>
     <head>
       <meta charset="utf-8"/>
+      <link rel="stylesheet" type="text/css" href="translate.css">
     </head>
   <body>
     <form id="form">
-      <label>
+      <label class="container">
         <input type="radio" id="de" name="language" checked>Deutsch</input>
+         <span class="checkmark"></span>
       </label>
-      <label>
+      <label class="container">
         <input type="radio" id="en" name="language">English</input>
+         <span class="checkmark"></span>
       </label>
-      <label>
+      <label class="container">
         <input type="radio" id="es" name="language">Español</input>
+         <span class="checkmark"></span>
       </label><br>
       <input id="textinput" type="text" placeholer="Your word here" required autofocus>
       <button type="button" id="btn" >Translate</button><br>
