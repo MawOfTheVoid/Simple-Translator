@@ -1,2 +1,3 @@
 # Simple-Translator
-A small translator to try out web development
+<img src="icons/translate.svg" width=100 align="right">
+A simple Translator which can translate any language which is supported by Google Translate to german, english or spanish. This translator translates words and text by making http-requests to Google Translate. This was just a little side project to test out web development and you probably shouldnt use it because there are better alternatives out there. This was just a little side project to try out web development so dont expect updates or anything like that. But if you want to try it out anyway you can download it here: https://addons.mozilla.org/de/firefox/addon/simple-translator_de_en_es/
